@@ -36,16 +36,15 @@
 
 <div class="w3-content w3-padding-large w3-margin-top" id="portfolio">
 
-  <!-- Images (Portfolio) 
   <h1 id="exec"><strong>Executive Orders</strong></h1>
   <flex>
       <div class="card">
           <h2>Executive Order</h2>
           <h1>No. 157</h1>
-          <p>Learn More Here.</p>
+          <button onclick="document.getElementById('id02').style.display='block'"> Learn More </button>
       </div>
   </flex>
--->
+
   <h1 id="lateup"><strong>Latest Updates</strong></h1>
   <flex>
     <div class="card">
@@ -75,7 +74,26 @@
       </footer>
     </div>
   </div>
-
+  
+<div id="id02" class="w3-modal">
+    <div class="w3-modal-content">
+      <header class="w3-container w3-yellow"> 
+        <span onclick="document.getElementById('id02').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>Executive Order No. 157</h2>
+      </header>
+      <div class="w3-container">
+        <p>
+          Executive Order 149 shall be repealed.
+          <br>
+          Taxes for all Americans will be reduced from 53% to 38%.
+        </p>
+      </div>
+      <footer class="w3-container w3-yellow">
+        <p>The White House</p>
+      </footer>
+    </div>
+  </div>
 
 
   
