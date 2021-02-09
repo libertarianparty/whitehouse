@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 body {
     background-color: rgba(230, 230, 230, 1);
+    padding: 0;
 }
 flex {
     display: flex;
