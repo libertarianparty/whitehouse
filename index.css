@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+body {
+    background-color: rgba(230, 230, 230, 1);
+}
 flex {
     display: flex;
     flex-wrap: wrap;
@@ -21,4 +24,16 @@ flex {
     background-color: rgba(255, 42, 42, 0.5);
     justify-content: center;
     text-align: center;
+}
+button {
+    padding: 10px;
+    border: 3px solid black;
+    background: transparent;
+    transition: 0.3s;
+}
+button:hover {
+    background-color: black;
+    color:white;
+    border: 3px solid white;
+    cursor: pointer;
 }
